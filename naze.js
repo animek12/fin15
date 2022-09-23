@@ -22,7 +22,7 @@ const hariini = moment.tz('Asia/Jakarta').format('dddd, DD MMMM YYYY')
 const barat = moment.tz('Asia/Jakarta').format('HH:mm:ss')
 const tengah = moment.tz('Asia/Makassar').format('HH:mm:ss')
 const timur = moment.tz('Asia/Jayapura').format('HH:mm:ss')
-const nyoutube = ('© Fin\nYoutube/Sc :\nhttps://youtube.com/channel/UCCZFKpk85uGzGdGk9kUZUIA')  //ubah di config biar ngk emror
+const nyoutube = ('© Fin\nWebsite :\nhttps://linktr.ee/fin222')  //ubah di config biar ngk emror
 const ini_mark = `0@s.whatsapp.net`
 
 //TIME
@@ -2727,7 +2727,7 @@ let alfamart = `628111500959@s.whatsapp.net`
             case 'menu': {
             let ownernya = ownernomer + '@s.whatsapp.net'
             let me = m.sender
-            let jawab = `*Bot by Naze Dev* 
+            let jawab = `*Bot by Alfin* 
 ${ucapanWaktu}\n-Creator : @${ownernya.split('@')[0]}\n-Lu : @${me.split('@')[0]}\n-Powered  : @${ini_mark.split('@')[0]}`
             let ments = [ownernya, me, ini_mark]
             let buttons = [{ buttonId: 'allmenu', buttonText: { displayText: '📖List Menu' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: '❗Rules' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
